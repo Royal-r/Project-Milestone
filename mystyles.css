@@ -1,0 +1,128 @@
+/* This is a separate text file for my global styles */
+
+/* This is is my style settings for the my pages header, body background, and header background */
+head {
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-image: url('Images/Light-Blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 20;
+}
+
+header {
+  background-color: #339;
+  padding: 10px;
+}
+
+/* This is is my style settings for the my images list and its name */
+img {
+  width: 100px;
+  border-radius: 100px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.image-name {
+  margin-top: 5px;
+  color: #000000; 
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* This is my style settings for the navigation list*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+}
+
+main {
+  margin: 20px;
+}
+
+/* This is my style settings for my footer */
+footer {
+  background-color: #339;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* These are my Specific Styles for my contact page */
+h1, h2 {
+  color: #000000;
+}
+
+h4 {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* The End */
