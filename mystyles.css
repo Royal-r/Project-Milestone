@@ -64,11 +64,6 @@ img {
   position: relative;
 }
 
-.mypic img {
-  position: absolute;
-  top: -60px;
-  left: 130px;
-}
 
 /* This is my style settings for the navigation list*/
 nav ul {
