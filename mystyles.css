@@ -141,10 +141,7 @@ form button:hover {
 }
 
 .user-input span {
-  position: absolute;
-  right: 445px;
   color: #ff0000;
-  font-size: 14;
 }
 
 #submit-error{
