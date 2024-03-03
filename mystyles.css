@@ -2,14 +2,14 @@
 
 /* This is is my style settings for the my pages header, body background, and header background */
 head {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 
 body {
   background-image: url('Images/Light-Blue.jpg');
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 10;
   padding: 20;
 }
@@ -17,6 +17,13 @@ body {
 header {
   background-color: #339;
   padding: 10px;
+  text-align: center;
+}
+
+.special-heading {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Lucida Handwriting", Helvetica;
 }
 
 h1, h2 {
@@ -101,6 +108,7 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 /* These are my Specific Styles for my contact page */
