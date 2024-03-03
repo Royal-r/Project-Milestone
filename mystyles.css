@@ -8,7 +8,6 @@ head {
 
 body {
   background-image: url('Images/Light-Blue.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, sans-serif;
   margin: 10;
@@ -20,7 +19,11 @@ header {
   padding: 10px;
 }
 
-/* This is is my style settings for the my images list and its name */
+h1, h2 {
+  color: #000000;
+}
+
+/* This is is my style settings my picture and for the my images list and its name */
 img {
   width: 100px;
   border-radius: 100px;
@@ -57,6 +60,16 @@ img {
   margin-right: 10px;
 }
 
+.mypic {
+  position: relative;
+}
+
+.mypic img {
+  position: absolute;
+  top: -60px;
+  left: 130px;
+}
+
 /* This is my style settings for the navigation list*/
 nav ul {
   list-style-type: none;
@@ -79,7 +92,7 @@ nav ul li a:hover {
 }
 
 main {
-  margin: 20px;
+  margin: 80px;
 }
 
 /* This is my style settings for my footer */
@@ -91,38 +104,56 @@ footer {
 }
 
 /* These are my Specific Styles for my contact page */
-h1, h2 {
-  color: #000000;
-}
 
-h4 {
-  color: #ff0000;
-  font-size: 20px;
-}
-
-form label {
+form {
   display: block;
-  margin-top: 10px;
+  margin: 20vh auto 0 auto;
+  width: 300px;
+  padding: 5px;
+  border-radius: 4px;
 }
 
-form input, form textarea {
-  width: 100%;
-  padding: 5px;
-  margin-top: 5px;
-}
 
 form button {
   margin-top: 10px;
-  padding: 5px 10px;
+  padding: 10px;
   background-color: #ff0000;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 form button:hover {
   background-color: #000000;
   color: #fff;
 }
+
+
+.user-input input, textarea {
+  border: 2px solid #100101;
+  border-radius: 10px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.user-input span {
+  position: absolute;
+  right: 445px;
+  color: #ff0000;
+  font-size: 14;
+}
+
+#submit-error{
+  color: #ff0000;
+}
+
+.user-input span i{
+    color: #06f506;
+}
+
 
 /* The End */
