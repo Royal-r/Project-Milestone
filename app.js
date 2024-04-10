@@ -1,14 +1,11 @@
 const express = require('express');
-const bodyParser = require('body-parser'); // Add this line
 const app = express();
 const port = 3000;
 
-app.use(bodyParser.urlencoded({ extended: true })); // Add this line
-
-app.use(express.static('Public'));
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/Public/mycontactinfo.html');
+    res.sendFile(__dirname + '/mycontactinfo.html');
 });
 
 app.post('/submit-form', (req, res) => {
