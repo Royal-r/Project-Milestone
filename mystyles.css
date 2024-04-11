@@ -26,6 +26,10 @@ header {
   text-align: center;
 }
 
+div {
+  margin: 0 auto;
+}
+
 .special-heading {
   color: #000000;
   font-size: 32px;
